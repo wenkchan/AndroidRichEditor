@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+    <RelativeLayout
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/include_diary_detail_edit_bar"
+            layout="@layout/include_edit_rich_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+        <com.wenkchan.androidricheditor.EditWalkView
+            android:id="@+id/et_edit_diary_content"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/include_diary_detail_edit_bar"
+            android:background="@android:color/background_light"
+            android:gravity="top|left"
+
+           />
+    </RelativeLayout>
+
+</LinearLayout>

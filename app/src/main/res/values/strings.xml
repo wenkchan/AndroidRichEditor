@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidRichEditor</string>
+    <string name="default_text_size">默认字体</string>
+</resources>

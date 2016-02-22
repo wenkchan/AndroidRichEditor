@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <View
+        android:id="@+id/lin_rich_bar_text_size_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:background="@color/divider" />
+    <LinearLayout
+        android:id="@+id/lin_rich_bar_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_default_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:clickable="true"
+            android:gravity="center"
+            android:background="?android:selectableItemBackground"
+            android:padding="@dimen/component_padding_margin_mini"
+            android:text="@string/default_text_size"
+            android:textSize="@dimen/text_size_body_normal" />
+
+        <ImageButton
+            android:id="@+id/btn_rich_bar_text_size_increase"
+            android:layout_width="@dimen/rich_bar_text_size_icon_size"
+            android:layout_height="@dimen/rich_bar_text_size_icon_size"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/ic_font_size_increase" />
+
+        <ImageButton
+            android:id="@+id/btn_rich_bar_text_size_decrease"
+            android:layout_width="@dimen/rich_bar_text_size_icon_size"
+            android:layout_height="@dimen/rich_bar_text_size_icon_size"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/ic_font_size_decrease" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_rich_bar_bold"
+            android:layout_width="@dimen/rich_bar_icon_size"
+            android:layout_height="@dimen/rich_bar_icon_size"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/ic_format_bold" />
+
+        <ImageButton
+            android:id="@+id/btn_rich_bar_strike_through"
+            android:layout_width="@dimen/rich_bar_icon_size"
+            android:layout_height="@dimen/rich_bar_icon_size"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/ic_format_strike_through" />
+
+
+        <ImageButton
+            android:id="@+id/btn_rich_bar_bullet"
+            android:layout_width="@dimen/rich_bar_icon_size"
+            android:layout_height="@dimen/rich_bar_icon_size"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/ic_format_bullet" />
+
+        <ImageButton
+            android:id="@+id/btn_rich_bar_list_number"
+            android:layout_width="@dimen/rich_bar_icon_size"
+            android:layout_height="@dimen/rich_bar_icon_size"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/ic_format_list_numbered" />
+
+        <ImageButton
+            android:id="@+id/btn_rich_bar_text_color"
+            android:layout_width="@dimen/rich_bar_icon_size"
+            android:layout_height="@dimen/rich_bar_icon_size"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/ic_format_color_text" />
+
+        <ImageButton
+            android:id="@+id/btn_rich_bar_text_size"
+            android:layout_width="@dimen/rich_bar_icon_size"
+            android:layout_height="@dimen/rich_bar_icon_size"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/ic_format_size" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider" />
+</LinearLayout>

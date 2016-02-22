@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/wenkchan/Documents/Developer/Android/Git/AndroidRichEditor/xwalk_core_library/src/main/res/values-v21/styles.xml -->
+    <eat-comment/>
+    <style name="SelectActionMenuShare">
+        <item name="android:icon">?android:attr/actionModeShareDrawable</item>
+    </style>
+    <style name="SelectActionMenuWebSearch">
+        <item name="android:icon">?android:attr/actionModeWebSearchDrawable</item>
+    </style>
+</resources>
